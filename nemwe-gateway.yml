@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: nemwe-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+    config:
+      enabled: true
+      uri: http://localhost:8081
