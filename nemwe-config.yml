@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: nemwe-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bricenemadjeu/nemwe-config-files.git
+          clone-on-start: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

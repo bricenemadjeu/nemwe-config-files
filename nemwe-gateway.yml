@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: nemwe-gateway
+    name: nemwe-gateway-server
   cloud:
     gateway:
       discovery:
