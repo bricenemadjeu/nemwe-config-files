@@ -1,0 +1,12 @@
+# Share properties only to gateway with dev profile
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true

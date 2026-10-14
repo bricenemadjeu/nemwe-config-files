@@ -1,0 +1,4 @@
+# Share properties to all profiles of gateway
+spring:
+  application:
+    name: gateway-server
