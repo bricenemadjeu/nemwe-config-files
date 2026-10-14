@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: gateway-server
+  profiles:
+    active: default
+app:
+  status: DOWN
