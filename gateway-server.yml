@@ -1,4 +1,6 @@
 # Share properties to all profiles of gateway
+server:
+  port: 8080
 spring:
   application:
     name: gateway-server
