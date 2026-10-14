@@ -1,0 +1,7 @@
+# Share properties only to gateway with dev profile
+server:
+  port: 8181
+
+spring:
+  application:
+    name: nemwe-api-server
