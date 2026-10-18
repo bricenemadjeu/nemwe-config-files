@@ -5,3 +5,6 @@ server:
 spring:
   application:
     name: nemwe-api-server
+
+app:
+  status: UP
