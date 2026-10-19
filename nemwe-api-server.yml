@@ -3,4 +3,4 @@ server:
   port: 8181
 
 app:
-  status: UP
+  status: DOWN
