@@ -1,6 +1,3 @@
 # Share properties only to gateway with dev profile
-server:
-  port: 8181
-
 app:
   status: DOWN
