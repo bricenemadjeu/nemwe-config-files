@@ -2,3 +2,7 @@ server:
   port: 8383
 app:
   status: UP
+
+jwt:
+  secret: TesteMoi1234
+  expiration: 3600
