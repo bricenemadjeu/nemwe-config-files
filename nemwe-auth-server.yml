@@ -3,6 +3,12 @@ server:
 app:
   status: UP
 
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/nemwe_auth_db}
+    username: ${DB_USERNAME:nemwe-auth}
+    password: ${DB_PASSWORD:nemwe1234}
+
 jwt:
   secret: TesteMoi1234
   expiration: 3600
